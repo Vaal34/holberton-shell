@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir my_dyr chmod 751 /my_dyr
+mkdir my_dyr, chmod 751 /my_dyr
