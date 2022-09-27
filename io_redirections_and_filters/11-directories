@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -name "." -depth | wc -l
+find -depth -type d -name "." | wc -l
