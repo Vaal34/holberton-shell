@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'obase=10; é' | bc 
+echo 'obase=10; é'  
