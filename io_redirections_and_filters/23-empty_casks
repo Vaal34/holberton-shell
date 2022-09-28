@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d "/" -f 1 | find -type d 
+find -type d | ls -aRl | cut -d " " -f 9
