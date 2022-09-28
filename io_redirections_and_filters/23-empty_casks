@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -aR | find -type d | rev | cut -d " " 1 | rev
+ls -aRl | find -type d | rev | cut -d " " 1 | rev
