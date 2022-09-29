@@ -1,2 +1,2 @@
 #!/bin/bash
-
+printf '%o\n' $BESTCHOL | tr "WATER" "01234" | tr "STIR." "01234" | echo $((WATER+STIR.)) 
