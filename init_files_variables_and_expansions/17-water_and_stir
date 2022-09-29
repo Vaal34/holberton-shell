@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%o\n' $BESTCHOL | tr "water" "01234" | tr "stir" "01234" | echo $(($BESTCHOL#$WATER+$STIR.)) 
+printf '%o\n' $BESTCHOL | export WATER"=water"| export STIR="stir." | tr "water" "01234" | tr "stir" "01234" | echo $(($BESTCHOL#$WATER+$STIR.)) 
